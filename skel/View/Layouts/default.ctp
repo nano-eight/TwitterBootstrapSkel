@@ -68,7 +68,7 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+	<div class="container-fluid">
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $content_for_layout; ?>
 	</div>
