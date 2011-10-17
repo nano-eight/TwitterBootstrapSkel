@@ -1,0 +1,20 @@
+This template can use on CakePHP2.0.
+
+How to use:
+1. Clone or download this template to your/cakephp/vendors/.
+
+2. Bake your project
+Ex:
+	$ cd your/cakephp
+	$ cake bake project --skel vendors/TwitterBootstrap/skel
+
+3. Bake database config
+Ex:
+	$ cake bake db_config
+
+4. Bake mvc
+Ex:
+	$ cake bake all
+
+Select the TwitterBootstrap template when requested.
+
