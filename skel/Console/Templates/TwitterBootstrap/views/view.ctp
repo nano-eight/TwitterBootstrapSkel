@@ -92,7 +92,7 @@ foreach ($relations as $alias => $details):
 <?php
 			foreach ($details['fields'] as $field) {
 				if ($field!='id'&&$field!=$singularVar.'_id')
-				echo "\t\t\t\t<th><?php __('" . Inflector::humanize($field) . "'); ?></th>\n";
+				echo "\t\t\t\t<th><?php echo __('" . Inflector::humanize($field) . "'); ?></th>\n";
 			}
 ?>
 				<th width="142px"><?php echo "<?php echo __('Actions');?>";?></th>
