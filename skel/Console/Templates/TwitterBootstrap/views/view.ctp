@@ -85,7 +85,7 @@ foreach ($relations as $alias => $details):
 	$otherPluralHumanName = Inflector::humanize($details['controller']);
 	?>
 	<div class="columns">
-		<h2><?php echo "<?php __('" . $otherPluralHumanName . "');?>";?></h2>
+		<h2><?php echo "<?php echo __('" . $otherPluralHumanName . "');?>";?></h2>
 		<?php echo "<?php if (!empty(\${$singularVar}['{$alias}'])) { ?>\n";?>
 		<table class="common-table zebra-striped">
 			<tr>
